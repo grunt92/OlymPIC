@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ObstacleHigh
+  - ObstacleWide
+  - ThrowingRange
+  - Obstacle
+  - Ice
+  - Water
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

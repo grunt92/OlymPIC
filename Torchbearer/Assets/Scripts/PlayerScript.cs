@@ -15,7 +15,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = this.transform.position + new Vector3(1, 0);
+        this.transform.position = this.transform.position + new Vector3(0.3f, 0);
     }
 
     public void onHighJump()
@@ -79,7 +79,7 @@ public class PlayerScript : MonoBehaviour
     
     void CrashSetBack()
     {
-        this.transform.position -= new Vector3(-10, 0);
+        this.transform.position -= new Vector3(10, 0);
     }
 
     enum State
@@ -92,9 +92,9 @@ public class PlayerScript : MonoBehaviour
         this.currentState = newState;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.otherCollider.tag.Equals("ObstacleHigh"))
+        if (collision.gameObject.tag.Equals("ObstacleHigh"))
         {
             if (!this.currentState.Equals(State.JumpHigh))
             {
@@ -102,8 +102,8 @@ public class PlayerScript : MonoBehaviour
                 StartCoroutine("onFallen");
             }
         }
-        
-        if (collision.otherCollider.tag.Equals("ObstacleWide"))
+
+        if (collision.gameObject.tag.Equals("ObstacleWide"))
         {
             if (!this.currentState.Equals(State.JumpWide))
             {
@@ -112,21 +112,21 @@ public class PlayerScript : MonoBehaviour
             }
         }
 
-        if (collision.otherCollider.tag.Equals("ThrowingRange"))
+        if (collision.gameObject.tag.Equals("ThrowingRange"))
         {
             if (this.currentState.Equals(State.Throwing))
             {
-                collision.otherCollider.GetComponent<ThrowingTarget>().onHitByPlayer();
+                collision.gameObject.GetComponent<ThrowingTarget>().onHitByPlayer();
             }
         }
 
-        if (collision.otherCollider.tag.Equals("Obstacle"))
+        if (collision.gameObject.tag.Equals("Obstacle"))
         {
             this.CrashSetBack();
             StartCoroutine("onFallen");
         }
 
-        if (collision.otherCollider.tag.Equals("Ice"))
+        if (collision.gameObject.tag.Equals("Ice"))
         {
             if (!this.currentState.Equals(State.Skating))
             {
@@ -135,7 +135,7 @@ public class PlayerScript : MonoBehaviour
             }
         }
 
-        if (collision.otherCollider.tag.Equals("Water"))
+        if (collision.gameObject.tag.Equals("Water"))
         {
             if (!this.currentState.Equals(State.Rowing))
             {
@@ -144,9 +144,13 @@ public class PlayerScript : MonoBehaviour
             }
         }
 
-        if (collision.otherCollider.tag.Equals("Checkpoint"))
+        if (collision.gameObject.tag.Equals("Checkpoint"))
         {
-            this.LevelManager.OnCheckPointPassed(collision.otherCollider.gameObject.GetComponent<CheckPointScript>());
+            this.LevelManager.OnCheckPointPassed(collision.gameObject.GetComponent<CheckPointScript>());
         }
     }
+
+   
+
+   
 }

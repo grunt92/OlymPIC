@@ -6,7 +6,7 @@ public class ThrowingTarget : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public Obstacle obstacle;
+    public GameObject obstacle;
 
     void Start()
     {
@@ -21,6 +21,6 @@ public class ThrowingTarget : MonoBehaviour
 
     public void onHitByPlayer()
     {
-        this.obstacle.deactiveObstacle();
+        this.obstacle.GetComponent<Collider>().enabled = false;
     }
 }

@@ -70,24 +70,6 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -115,14 +97,35 @@
     <Reference Include="Unity.Scenes.Editor">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Extensions">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Extensions.Hybrid">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.BuildUtils">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
@@ -132,6 +135,9 @@
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
@@ -166,26 +172,20 @@
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
       <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>C:/1)Studium/HS_Harz/1. Sem -WiSe19/IGS/_TorchBearer/Unity/OlymPIC/OlymPIC/Torchbearer/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
